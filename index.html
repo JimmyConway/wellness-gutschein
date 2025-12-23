@@ -4,21 +4,31 @@
   <meta charset="UTF-8" />
   <title>Wellness-Auszeit 🤍</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: #f4edea;
       color: #4a2f2f;
       text-align: center;
     }
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                   url("wellness.png");
       background-size: cover;
       background-position: center;
       padding: 120px 20px;
       color: white;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
     }
     .card {
       max-width: 680px;
@@ -27,42 +37,54 @@
       padding: 40px 30px;
       border-radius: 16px;
       box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+      text-align: left;
     }
-    h1 {
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: #4a2f2f;
+      text-align: center;
       margin-top: 0;
-      font-size: 2.2rem;
+    }
+    .card p {
+      line-height: 1.6;
+      margin: 15px 0;
+      font-size: 1.1rem;
     }
     .details {
       margin: 30px 0;
       font-size: 1.1rem;
       line-height: 1.6;
+      text-align: center;
+    }
+    .heart {
+      color: #e07c7c;
+      font-size: 1.3rem;
+      margin: 0 4px;
     }
     .footer {
       font-size: 0.9rem;
       color: #888;
+      margin-bottom: 30px;
     }
   </style>
 </head>
 <body>
 
   <div class="hero">
-    <h1>Zeit zu zweit 🤍</h1>
-    <p>Wellness · Ruhe · Genießen</p>
+    <h1>Zeit zu zweit <span class="heart">🤍</span></h1>
+    <p>Wellness <span class="heart">🕯️</span> Ruhe <span class="heart">💧</span> Genießen <span class="heart">🍃</span></p>
   </div>
 
   <div class="card">
     <h2>Wellness-Auszeit für dich</h2>
 
-    <p>
-      Ich schenke dir keine Sache,<br>
-      sondern <strong>Zeit</strong>.
-    </p>
+    <p>Ich schenke dir keine Sache,<br>
+      sondern <strong>Zeit</strong> <span class="heart">❤️</span>.</p>
 
-    <p>
-      Zeit zum Abschalten.<br>
+    <p>Zeit zum Abschalten.<br>
       Zeit zum Genießen.<br>
-      Zeit für uns.
-    </p>
+      Zeit für uns.</p>
 
     <div class="details">
       <strong>Welcome Hotel Bad Arolsen</strong><br>
@@ -70,7 +92,7 @@
       2 Nächte · Halbpension · Spa inklusive
     </div>
 
-    <p>Ich freu mich auf diese Auszeit mit dir ✨</p>
+    <p style="text-align:center; font-size:1.2rem;">Ich freu mich auf diese Auszeit mit dir ✨</p>
   </div>
 
   <div class="footer">
